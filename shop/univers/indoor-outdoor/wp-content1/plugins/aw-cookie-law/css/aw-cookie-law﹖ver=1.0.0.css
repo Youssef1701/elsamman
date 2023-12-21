@@ -1,0 +1,46 @@
+.aw-cookie-law {
+    padding: 8px 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: #fff;
+    border-top: 1px solid #cfcfcf;
+    z-index: 999;
+
+    color: #b1b1b1;
+    font-family: 'proxima-nova', serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+}
+.aw-cookie-law button {
+    margin: 0 10px;
+    padding: 3px 6px;
+
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 0;
+    vertical-align: middle;
+
+    color: #7f7f7f;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-transform: lowercase;
+}
+.aw-cookie-law button:hover {
+    background: #000;
+    color: #fff;
+}
+.aw-cookie-law a {
+    color: inherit;
+    text-decoration: underline;
+}
+.aw-cookie-law a:after {
+    display: none;
+}
+.aw-cookie-law a:hover {
+    color: #000;
+}
